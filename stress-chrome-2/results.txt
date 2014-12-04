@@ -1,0 +1,308 @@
+-----------------------------------------
+Summary:
+-----------------------------------------
+Repeaters:          25
+Tests per Repeater: 10
+Total Time:         00:03:48
+-----------------------------------------
+-----------------------------------------
+Repeater 0
+   Test 0: PASSED
+   Test 1: PASSED
+   Test 2: PASSED
+   Test 3: PASSED
+   Test 4: PASSED
+   Test 5: PASSED
+   Test 6: PASSED
+   Test 7: PASSED
+   Test 8: PASSED
+   Test 9: PASSED
+-----------------------------------------
+Repeater 1
+   Test 0: PASSED
+   Test 1: PASSED
+   Test 2: PASSED
+   Test 3: PASSED
+   Test 4: PASSED
+   Test 5: PASSED
+   Test 6: PASSED
+   Test 7: PASSED
+   Test 8: PASSED
+   Test 9: PASSED
+-----------------------------------------
+Repeater 2
+   Test 0: PASSED
+   Test 1: PASSED
+   Test 2: PASSED
+   Test 3: PASSED
+   Test 4: PASSED
+   Test 5: PASSED
+   Test 6: PASSED
+   Test 7: PASSED
+   Test 8: PASSED
+   Test 9: PASSED
+-----------------------------------------
+Repeater 3
+   Test 0: PASSED
+   Test 1: PASSED
+   Test 2: PASSED
+   Test 3: PASSED
+   Test 4: PASSED
+   Test 5: PASSED
+   Test 6: PASSED
+   Test 7: PASSED
+   Test 8: PASSED
+   Test 9: PASSED
+-----------------------------------------
+Repeater 4
+   Test 0: PASSED
+   Test 1: PASSED
+   Test 2: PASSED
+   Test 3: PASSED
+   Test 4: PASSED
+   Test 5: PASSED
+   Test 6: PASSED
+   Test 7: PASSED
+   Test 8: PASSED
+   Test 9: PASSED
+-----------------------------------------
+Repeater 5
+   Test 0: PASSED
+   Test 1: PASSED
+   Test 2: PASSED
+   Test 3: PASSED
+   Test 4: PASSED
+   Test 5: PASSED
+   Test 6: PASSED
+   Test 7: PASSED
+   Test 8: PASSED
+   Test 9: PASSED
+-----------------------------------------
+Repeater 6
+   Test 0: PASSED
+   Test 1: PASSED
+   Test 2: PASSED
+   Test 3: PASSED
+   Test 4: PASSED
+   Test 5: PASSED
+   Test 6: PASSED
+   Test 7: PASSED
+   Test 8: PASSED
+   Test 9: PASSED
+-----------------------------------------
+Repeater 7
+   Test 0: PASSED
+   Test 1: PASSED
+   Test 2: PASSED
+   Test 3: PASSED
+   Test 4: PASSED
+   Test 5: PASSED
+   Test 6: PASSED
+   Test 7: PASSED
+   Test 8: PASSED
+   Test 9: PASSED
+-----------------------------------------
+Repeater 8
+   Test 0: PASSED
+   Test 1: PASSED
+   Test 2: PASSED
+   Test 3: PASSED
+   Test 4: PASSED
+   Test 5: PASSED
+   Test 6: PASSED
+   Test 7: PASSED
+   Test 8: PASSED
+   Test 9: PASSED
+-----------------------------------------
+Repeater 9
+   Test 0: PASSED
+   Test 1: PASSED
+   Test 2: PASSED
+   Test 3: PASSED
+   Test 4: PASSED
+   Test 5: PASSED
+   Test 6: PASSED
+   Test 7: PASSED
+   Test 8: PASSED
+   Test 9: PASSED
+-----------------------------------------
+Repeater 10
+   Test 0: PASSED
+   Test 1: PASSED
+   Test 2: PASSED
+   Test 3: PASSED
+   Test 4: PASSED
+   Test 5: PASSED
+   Test 6: PASSED
+   Test 7: PASSED
+   Test 8: PASSED
+   Test 9: PASSED
+-----------------------------------------
+Repeater 11
+   Test 0: PASSED
+   Test 1: PASSED
+   Test 2: PASSED
+   Test 3: PASSED
+   Test 4: PASSED
+   Test 5: PASSED
+   Test 6: PASSED
+   Test 7: PASSED
+   Test 8: PASSED
+   Test 9: PASSED
+-----------------------------------------
+Repeater 12
+   Test 0: PASSED
+   Test 1: PASSED
+   Test 2: PASSED
+   Test 3: PASSED
+   Test 4: PASSED
+   Test 5: PASSED
+   Test 6: PASSED
+   Test 7: PASSED
+   Test 8: PASSED
+   Test 9: PASSED
+-----------------------------------------
+Repeater 13
+   Test 0: PASSED
+   Test 1: PASSED
+   Test 2: PASSED
+   Test 3: PASSED
+   Test 4: PASSED
+   Test 5: PASSED
+   Test 6: PASSED
+   Test 7: PASSED
+   Test 8: PASSED
+   Test 9: PASSED
+-----------------------------------------
+Repeater 14
+   Test 0: PASSED
+   Test 1: PASSED
+   Test 2: PASSED
+   Test 3: PASSED
+   Test 4: PASSED
+   Test 5: PASSED
+   Test 6: PASSED
+   Test 7: PASSED
+   Test 8: PASSED
+   Test 9: PASSED
+-----------------------------------------
+Repeater 15
+   Test 0: PASSED
+   Test 1: PASSED
+   Test 2: PASSED
+   Test 3: PASSED
+   Test 4: PASSED
+   Test 5: PASSED
+   Test 6: PASSED
+   Test 7: PASSED
+   Test 8: PASSED
+   Test 9: PASSED
+-----------------------------------------
+Repeater 16
+   Test 0: PASSED
+   Test 1: PASSED
+   Test 2: PASSED
+   Test 3: PASSED
+   Test 4: PASSED
+   Test 5: PASSED
+   Test 6: PASSED
+   Test 7: PASSED
+   Test 8: PASSED
+   Test 9: PASSED
+-----------------------------------------
+Repeater 17
+   Test 0: PASSED
+   Test 1: PASSED
+   Test 2: PASSED
+   Test 3: PASSED
+   Test 4: PASSED
+   Test 5: PASSED
+   Test 6: PASSED
+   Test 7: PASSED
+   Test 8: PASSED
+   Test 9: PASSED
+-----------------------------------------
+Repeater 18
+   Test 0: PASSED
+   Test 1: PASSED
+   Test 2: PASSED
+   Test 3: PASSED
+   Test 4: PASSED
+   Test 5: PASSED
+   Test 6: PASSED
+   Test 7: PASSED
+   Test 8: PASSED
+   Test 9: PASSED
+-----------------------------------------
+Repeater 19
+   Test 0: PASSED
+   Test 1: PASSED
+   Test 2: PASSED
+   Test 3: PASSED
+   Test 4: PASSED
+   Test 5: PASSED
+   Test 6: PASSED
+   Test 7: PASSED
+   Test 8: PASSED
+   Test 9: PASSED
+-----------------------------------------
+Repeater 20
+   Test 0: PASSED
+   Test 1: PASSED
+   Test 2: PASSED
+   Test 3: PASSED
+   Test 4: PASSED
+   Test 5: PASSED
+   Test 6: PASSED
+   Test 7: PASSED
+   Test 8: PASSED
+   Test 9: PASSED
+-----------------------------------------
+Repeater 21
+   Test 0: PASSED
+   Test 1: PASSED
+   Test 2: PASSED
+   Test 3: PASSED
+   Test 4: PASSED
+   Test 5: PASSED
+   Test 6: PASSED
+   Test 7: PASSED
+   Test 8: PASSED
+   Test 9: PASSED
+-----------------------------------------
+Repeater 22
+   Test 0: PASSED
+   Test 1: PASSED
+   Test 2: PASSED
+   Test 3: PASSED
+   Test 4: PASSED
+   Test 5: PASSED
+   Test 6: PASSED
+   Test 7: PASSED
+   Test 8: PASSED
+   Test 9: PASSED
+-----------------------------------------
+Repeater 23
+   Test 0: PASSED
+   Test 1: PASSED
+   Test 2: PASSED
+   Test 3: PASSED
+   Test 4: PASSED
+   Test 5: PASSED
+   Test 6: PASSED
+   Test 7: PASSED
+   Test 8: PASSED
+   Test 9: PASSED
+-----------------------------------------
+Repeater 24
+   Test 0: PASSED
+   Test 1: PASSED
+   Test 2: PASSED
+   Test 3: PASSED
+   Test 4: PASSED
+   Test 5: PASSED
+   Test 6: PASSED
+   Test 7: PASSED
+   Test 8: PASSED
+   Test 9: PASSED
+-----------------------------------------
