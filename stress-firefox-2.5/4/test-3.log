@@ -1,0 +1,19 @@
+[90m[firefox] [39m > [36mCALL[39m init({"browserName":"firefox"}) [90m[39m
+[90m[firefox] [39m > [35mPOST[39m /session [90m{"desiredCapabilities":{"browserName":"firefox","version":"","javascriptEnabled":true,"platform":"ANY"}}[39m
+[90m[firefox] [39m[36m
+Driving the web on session: 9dce0f03-ba9d-4d24-8b07-4d0284727cdc
+[39m
+[90m[firefox] [39m > [36mRESPONSE[39m init({"browserName":"firefox"}) [90m"9dce0f03-ba9d-4d24-8b07-4d0284727cdc",{"platform":"LINUX","javascriptEnabled":true,"acceptSslCerts":true,"browserName":"firefox","rotatable":false,"locationContextEnabled":true,"webdriver.remote.sessionid":"9dce0f03-ba9d-4d24-8b07-4d0284727cdc","version":"34.0","databaseEnabled":true,"cssSelectorsEnabled":true,"handlesAlerts":true,"webStorageEnabled":true,"nativeEvents":false,"applicationCacheEnabled":true,"takesScreenshot":true}[39m
+[90m[firefox] [39m > [36mCALL[39m get("https://github.com") [90m[39m
+[90m[firefox] [39m > [35mPOST[39m /session/:sessionID/url [90m{"url":"https://github.com"}[39m
+[90m[firefox] [39m > [36mRESPONSE[39m get("https://github.com") [90m[39m
+[90m[firefox] [39m > [36mCALL[39m title() [90m[39m
+[90m[firefox] [39m > [35mGET[39m /session/:sessionID/title [90m[39m
+[90m[firefox] [39m > [36mRESPONSE[39m title() [90m"GitHub · Build software better, together."[39m
+[90m[firefox] [39m > [36mCALL[39m quit() [90m[39m
+[90m[firefox] [39m > [35mDELETE[39m /session/:sessionID [90m[39m
+Test Passed
+[90m[firefox] [39m[36m
+Ending your web drivage..
+[39m
+[90m[firefox] [39m > [36mRESPONSE[39m quit() [90m[39m

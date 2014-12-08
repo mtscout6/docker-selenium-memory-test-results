@@ -1,0 +1,10 @@
+[90m[firefox] [39m > [36mCALL[39m init({"browserName":"firefox"}) [90m[39m
+[90m[firefox] [39m > [35mPOST[39m /session [90m{"desiredCapabilities":{"browserName":"firefox","version":"","javascriptEnabled":true,"platform":"ANY"}}[39m
+[90m[firefox] [39m > [36mCALL[39m get("https://github.com") [90m[39m
+[90m[firefox] [39m > [35mPOST[39m /session/url [90m{"url":"https://github.com"}[39m
+[90m[firefox] [39m > [36mCALL[39m title() [90m[39m
+[90m[firefox] [39m > [35mGET[39m /session/title [90m[39m
+[90m[firefox] [39m > [36mCALL[39m quit() [90m[39m
+{"message":"[title()] Error response status: 13, , UnknownError - An unknown server-side error occurred while processing the command. Selenium error: Session [title] not available and is not among the last 1000 terminated sessions.\nActive sessions are[]","status":13,"cause":{"status":13,"value":{"message":"Session [title] not available and is not among the last 1000 terminated sessions.\nActive sessions are[]","class":"org.openqa.grid.common.exception.GridException","stackTrace":[{"fileName":"A...
+[90m[firefox] [39m > [35mDELETE[39m /session [90m[39m
+Test Failed

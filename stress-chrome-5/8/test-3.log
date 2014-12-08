@@ -1,0 +1,15 @@
+[90m[chrome] [39m > [36mCALL[39m init({"browserName":"chrome"}) [90m[39m
+[90m[chrome] [39m > [35mPOST[39m /session [90m{"desiredCapabilities":{"browserName":"chrome","version":"","javascriptEnabled":true,"platform":"ANY"}}[39m
+[90m[chrome] [39m[36m
+Driving the web on session: e2a801db-4e40-4505-9a89-8b83a52a7355
+[39m
+[90m[chrome] [39m > [36mRESPONSE[39m init({"browserName":"chrome"}) [90m"e2a801db-4e40-4505-9a89-8b83a52a7355",{"platform":"LINUX","acceptSslCerts":true,"javascriptEnabled":true,"browserName":"chrome","chrome":{"userDataDir":"/tmp/.com.google.Chrome.O07bPY"},"rotatable":false,"locationContextEnabled":true,"mobileEmulationEnabled":false,"webdriver.remote.sessionid":"e2a801db-4e40-4505-9a89-8b83a52a7355","version":"39.0.2171.71","takesHeapSnapshot":true,"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"browserConnectionEnabled":false,"nativeEvents":true,"webStorageEnabled":true,"applicationCacheEnabled":false,"takesScreenshot":true}[39m
+[90m[chrome] [39m > [36mCALL[39m get("https://github.com") [90m[39m
+[90m[chrome] [39m > [35mPOST[39m /session/:sessionID/url [90m{"url":"https://github.com"}[39m
+[90m[chrome] [39m > [36mRESPONSE[39m get("https://github.com") [90m[39m
+[90m[chrome] [39m > [36mCALL[39m title() [90m[39m
+[90m[chrome] [39m > [35mGET[39m /session/:sessionID/title [90m[39m
+{"message":"[title()] Error response status: 13, , UnknownError - An unknown server-side error occurred while processing the command. Selenium error: chrome not reachable\n  (Session info: chrome=39.0.2171.71)\n  (Driver info: chromedriver=2.12.301324 (de8ab311bc9374d0ade71f7c167bad61848c7c48),platform=Linux 3.16.7-tinycore64 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 17 milliseconds\nBuild info: version: '2.44.0', revision: '76d78cf', ...
+[90m[chrome] [39m > [36mCALL[39m quit() [90m[39m
+[90m[chrome] [39m > [35mDELETE[39m /session/:sessionID [90m[39m
+Test Failed

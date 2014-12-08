@@ -1,0 +1,24 @@
+[90m[chrome] [39m > [36mCALL[39m init({"browserName":"chrome"}) [90m[39m
+[90m[chrome] [39m > [35mPOST[39m /session [90m{"desiredCapabilities":{"browserName":"chrome","version":"","javascriptEnabled":true,"platform":"ANY"}}[39m
+[90m[chrome] [39m[36m
+Driving the web on session: 9f0a8ca9-fa35-4a12-9451-7e461c3ba823
+[39m
+[90m[chrome] [39m > [36mRESPONSE[39m init({"browserName":"chrome"}) [90m"9f0a8ca9-fa35-4a12-9451-7e461c3ba823",{"platform":"LINUX","acceptSslCerts":true,"javascriptEnabled":true,"browserName":"chrome","chrome":{"userDataDir":"/tmp/.com.google.Chrome.KDkH8Q"},"rotatable":false,"locationContextEnabled":true,"mobileEmulationEnabled":false,"webdriver.remote.sessionid":"9f0a8ca9-fa35-4a12-9451-7e461c3ba823","version":"39.0.2171.71","takesHeapSnapshot":true,"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"browserConnectionEnabled":false,"nativeEvents":true,"webStorageEnabled":true,"applicationCacheEnabled":false,"takesScreenshot":true}[39m
+[90m[chrome] [39m > [36mCALL[39m get("https://github.com") [90m[39m
+[90m[chrome] [39m > [35mPOST[39m /session/:sessionID/url [90m{"url":"https://github.com"}[39m
+[90m[chrome] [39m > [36mRESPONSE[39m get("https://github.com") [90m[39m
+[90m[chrome] [39m > [36mCALL[39m title() [90m[39m
+[90m[chrome] [39m > [35mGET[39m /session/:sessionID/title [90m[39m
+[90m[chrome] [39m > [36mRESPONSE[39m title() [90m""[39m
+
+AssertionError: expected '' to include 'GitHub'
+    at /usr/src/app/smoke-test.js:37:22
+    at cb (/usr/src/app/node_modules/wd/lib/webdriver.js:221:45)
+    at /usr/src/app/node_modules/wd/lib/callbacks.js:105:5
+    at /usr/src/app/node_modules/wd/lib/callbacks.js:82:7
+    at /usr/src/app/node_modules/wd/lib/webdriver.js:174:5
+    at Request._callback (/usr/src/app/node_modules/wd/lib/http-utils.js:85:7)
+    at Request.self.callback (/usr/src/app/node_modules/wd/node_modules/request/request.js:364:22)
+    at Request.emit (events.js:98:17)
+    at Request.<anonymous> (/usr/src/app/node_modules/wd/node_modules/request/request.js:1318:14)
+    at Request.emit (events.js:117:20)

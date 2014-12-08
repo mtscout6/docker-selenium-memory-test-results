@@ -1,0 +1,70 @@
+2014-12-04T21:57:06.507886528Z 21:57:06.506 INFO - Launching a selenium grid node
+[2014-12-04T21:57:07.057245911Z] 21:57:07.057 INFO - Java: Oracle Corporation 24.65-b04
+[2014-12-04T21:57:07.057308829Z] 21:57:07.057 INFO - OS: Linux 3.16.7-tinycore64 amd64
+[2014-12-04T21:57:07.061920994Z] 21:57:07.061 INFO - v2.44.0, with Core v2.44.0. Built from revision 76d78cf
+[2014-12-04T21:57:07.137006931Z] 21:57:07.136 INFO - Default driver org.openqa.selenium.ie.InternetExplorerDriver registration is skipped: registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match with current platform: LINUX
+[2014-12-04T21:57:07.159037353Z] 21:57:07.158 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:5555/wd/hub
+[2014-12-04T21:57:07.160093119Z] 21:57:07.159 INFO - Version Jetty/5.1.x
+[2014-12-04T21:57:07.161142335Z] 21:57:07.160 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+[2014-12-04T21:57:07.161935394Z] 21:57:07.161 INFO - Started HttpContext[/selenium-server,/selenium-server]
+[2014-12-04T21:57:07.161964128Z] 21:57:07.161 INFO - Started HttpContext[/,/]
+[2014-12-04T21:57:07.170583907Z] 21:57:07.170 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@6cb7c7ef
+[2014-12-04T21:57:07.170635093Z] 21:57:07.170 INFO - Started HttpContext[/wd,/wd]
+[2014-12-04T21:57:07.173274405Z] 21:57:07.173 INFO - Started SocketListener on 0.0.0.0:5555
+[2014-12-04T21:57:07.173332773Z] 21:57:07.173 INFO - Started org.openqa.jetty.jetty.Server@d0adc0c
+[2014-12-04T21:57:07.208947383Z] 21:57:07.208 INFO - using the json request : {"class":"org.openqa.grid.common.RegistrationRequest","configuration":{"nodeConfig":"/opt/selenium/config.json","register":true,"port":5555,"host":"172.17.2.211","proxy":"org.openqa.grid.selenium.proxy.DefaultRemoteProxy","maxSession":1,"role":"node","hubHost":"172.17.2.205","registerCycle":5000,"hub":"http://172.17.2.205:4444/grid/register","hubPort":4444,"url":"http://172.17.2.211:5555","remoteHost":"http://172.17.2.211:5555"},"capabilities":[{"platform":"LINUX","seleniumProtocol":"Selenium","browserName":"*googlechrome","maxInstances":1},{"platform":"LINUX","seleniumProtocol":"WebDriver","browserName":"chrome","maxInstances":1}]}
+[2014-12-04T21:57:07.211320839Z] 21:57:07.211 INFO - Starting auto register thread. Will try to register every 5000 ms.
+[2014-12-04T21:57:07.211364959Z] 21:57:07.211 INFO - Registering the node to hub :http://172.17.2.205:4444/grid/register
+[2014-12-04T21:57:21.815607758Z] 21:57:21.742 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=chrome, version=}]])
+[2014-12-04T21:57:21.862131046Z] 21:57:21.759 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=chrome, version=}]
+[2014-12-04T21:57:22.132853924Z] Starting ChromeDriver 2.12.301324 (de8ab311bc9374d0ade71f7c167bad61848c7c48) on port 17165
+[2014-12-04T21:57:22.132853924Z] Only local connections are allowed.
+[2014-12-04T21:57:22.525177603Z] [0.512][WARNING]: PAC support disabled because there is no system implementation
+[2014-12-04T21:57:23.827393611Z] 21:57:23.827 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=chrome, version=}]]
+[2014-12-04T21:57:24.066296765Z] 21:57:24.065 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:57:27.348747406Z] 21:57:27.348 INFO - Done: [get: https://github.com]
+[2014-12-04T21:57:27.359739704Z] 21:57:27.359 INFO - Executing: [get title])
+[2014-12-04T21:57:27.379893505Z] 21:57:27.379 INFO - Done: [get title]
+[2014-12-04T21:57:27.395672866Z] 21:57:27.394 INFO - Executing: [delete session: 53085a71-1604-41c9-ab48-61ec73a0b064])
+[2014-12-04T21:57:28.240647937Z] 21:57:27.958 INFO - Done: [delete session: 53085a71-1604-41c9-ab48-61ec73a0b064]
+[2014-12-04T21:57:28.281083818Z] 21:57:27.977 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=chrome, version=}]])
+[2014-12-04T21:57:28.281083818Z] 21:57:27.987 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=chrome, version=}]
+[2014-12-04T21:57:28.281083818Z] Starting ChromeDriver 2.12.301324 (de8ab311bc9374d0ade71f7c167bad61848c7c48) on port 15887
+[2014-12-04T21:57:28.281083818Z] Only local connections are allowed.
+[2014-12-04T21:57:28.864702563Z] [0.509][WARNING]: PAC support disabled because there is no system implementation
+[2014-12-04T21:57:28.956106031Z] 21:57:28.954 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=chrome, version=}]]
+[2014-12-04T21:57:29.007515133Z] 21:57:28.974 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:57:32.192260097Z] 21:57:31.931 INFO - Done: [get: https://github.com]
+[2014-12-04T21:57:32.210120706Z] 21:57:31.943 INFO - Executing: [get title])
+[2014-12-04T21:57:32.210120706Z] 21:57:31.952 INFO - Done: [get title]
+[2014-12-04T21:57:32.210120706Z] 21:57:31.962 INFO - Executing: [delete session: 25d0d75c-bf5a-4dcb-a008-f17050080f16])
+[2014-12-04T21:57:32.697315812Z] 21:57:32.523 INFO - Done: [delete session: 25d0d75c-bf5a-4dcb-a008-f17050080f16]
+[2014-12-04T21:57:32.702684238Z] 21:57:32.532 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=chrome, version=}]])
+[2014-12-04T21:57:32.702684238Z] 21:57:32.532 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=chrome, version=}]
+[2014-12-04T21:57:32.702684238Z] Starting ChromeDriver 2.12.301324 (de8ab311bc9374d0ade71f7c167bad61848c7c48) on port 6667
+[2014-12-04T21:57:32.702684238Z] Only local connections are allowed.
+[2014-12-04T21:57:33.159351535Z] [0.500][WARNING]: PAC support disabled because there is no system implementation
+[2014-12-04T21:57:34.018171868Z] 21:57:33.668 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=chrome, version=}]]
+[2014-12-04T21:57:34.050550542Z] 21:57:33.708 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:57:36.111116958Z] 21:57:36.110 INFO - Done: [get: https://github.com]
+[2014-12-04T21:57:36.125885059Z] 21:57:36.125 INFO - Executing: [get title])
+[2014-12-04T21:57:36.196726692Z] 21:57:36.192 INFO - Done: [get title]
+[2014-12-04T21:57:36.261735491Z] 21:57:36.259 INFO - Executing: [delete session: 5c6a33c0-63b2-4384-b1a9-9228c6cd0c97])
+[2014-12-04T21:57:36.836220094Z] 21:57:36.835 INFO - Done: [delete session: 5c6a33c0-63b2-4384-b1a9-9228c6cd0c97]
+[2014-12-04T21:57:36.858206874Z] 21:57:36.856 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=chrome, version=}]])
+[2014-12-04T21:57:36.865747737Z] 21:57:36.862 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=chrome, version=}]
+[2014-12-04T21:57:36.875853794Z] Starting ChromeDriver 2.12.301324 (de8ab311bc9374d0ade71f7c167bad61848c7c48) on port 23357
+[2014-12-04T21:57:36.875853794Z] Only local connections are allowed.
+[2014-12-04T21:57:37.636993042Z] [0.503][WARNING]: PAC support disabled because there is no system implementation
+[2014-12-04T21:57:37.751518726Z] 21:57:37.750 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=chrome, version=}]]
+[2014-12-04T21:57:37.811918818Z] 21:57:37.811 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:57:40.386283861Z] 21:57:40.385 INFO - Done: [get: https://github.com]
+[2014-12-04T21:57:40.401265757Z] 21:57:40.401 INFO - Executing: [get title])
+[2014-12-04T21:57:40.826825939Z] 21:57:40.430 INFO - Done: [get title]
+[2014-12-04T21:57:40.857220150Z] 21:57:40.443 INFO - Executing: [delete session: df40edea-1035-4106-8961-69566c71f775])
+[2014-12-04T21:57:41.014957314Z] 21:57:41.014 INFO - Done: [delete session: df40edea-1035-4106-8961-69566c71f775]
+[2014-12-04T21:57:41.028529304Z] 21:57:41.026 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=chrome, version=}]])
+[2014-12-04T21:57:41.034431866Z] 21:57:41.034 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=chrome, version=}]
+[2014-12-04T21:57:41.058112110Z] Starting ChromeDriver 2.12.301324 (de8ab311bc9374d0ade71f7c167bad61848c7c48) on port 18300
+[2014-12-04T21:57:41.058112110Z] Only local connections are allowed.
+[2014-12-04T21:57:41.855731435Z] [0.504][WARNING]: PAC support disabled because there is no system implementation

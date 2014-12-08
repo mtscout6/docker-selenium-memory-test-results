@@ -1,0 +1,19 @@
+[90m[chrome] [39m > [36mCALL[39m init({"browserName":"chrome"}) [90m[39m
+[90m[chrome] [39m > [35mPOST[39m /session [90m{"desiredCapabilities":{"browserName":"chrome","version":"","javascriptEnabled":true,"platform":"ANY"}}[39m
+[90m[chrome] [39m[36m
+Driving the web on session: fce958db-cd76-4d21-9fcf-bd0622aec0a2
+[39m
+[90m[chrome] [39m > [36mRESPONSE[39m init({"browserName":"chrome"}) [90m"fce958db-cd76-4d21-9fcf-bd0622aec0a2",{"platform":"LINUX","acceptSslCerts":true,"javascriptEnabled":true,"browserName":"chrome","chrome":{"userDataDir":"/tmp/.com.google.Chrome.u2iX3R"},"rotatable":false,"locationContextEnabled":true,"mobileEmulationEnabled":false,"webdriver.remote.sessionid":"fce958db-cd76-4d21-9fcf-bd0622aec0a2","version":"39.0.2171.71","takesHeapSnapshot":true,"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"browserConnectionEnabled":false,"nativeEvents":true,"webStorageEnabled":true,"applicationCacheEnabled":false,"takesScreenshot":true}[39m
+[90m[chrome] [39m > [36mCALL[39m get("https://github.com") [90m[39m
+[90m[chrome] [39m > [35mPOST[39m /session/:sessionID/url [90m{"url":"https://github.com"}[39m
+[90m[chrome] [39m > [36mRESPONSE[39m get("https://github.com") [90m[39m
+[90m[chrome] [39m > [36mCALL[39m title() [90m[39m
+[90m[chrome] [39m > [35mGET[39m /session/:sessionID/title [90m[39m
+[90m[chrome] [39m > [36mRESPONSE[39m title() [90m"GitHub · Build software better, together."[39m
+[90m[chrome] [39m > [36mCALL[39m quit() [90m[39m
+[90m[chrome] [39m > [35mDELETE[39m /session/:sessionID [90m[39m
+Test Passed
+[90m[chrome] [39m[36m
+Ending your web drivage..
+[39m
+[90m[chrome] [39m > [36mRESPONSE[39m quit() [90m[39m

@@ -1,0 +1,22 @@
+2014-12-04T21:57:08.629185484Z 21:57:08.628 INFO - Launching a selenium grid node
+[2014-12-04T21:57:09.089019815Z] 21:57:09.088 INFO - Java: Oracle Corporation 24.65-b04
+[2014-12-04T21:57:09.089076849Z] 21:57:09.088 INFO - OS: Linux 3.16.7-tinycore64 amd64
+[2014-12-04T21:57:09.094417133Z] 21:57:09.094 INFO - v2.44.0, with Core v2.44.0. Built from revision 76d78cf
+[2014-12-04T21:57:09.163293004Z] 21:57:09.163 INFO - Default driver org.openqa.selenium.ie.InternetExplorerDriver registration is skipped: registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match with current platform: LINUX
+[2014-12-04T21:57:09.184421690Z] 21:57:09.184 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:5555/wd/hub
+[2014-12-04T21:57:09.185479217Z] 21:57:09.185 INFO - Version Jetty/5.1.x
+[2014-12-04T21:57:09.187311841Z] 21:57:09.186 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+[2014-12-04T21:57:09.187331742Z] 21:57:09.187 INFO - Started HttpContext[/selenium-server,/selenium-server]
+[2014-12-04T21:57:09.187466378Z] 21:57:09.187 INFO - Started HttpContext[/,/]
+[2014-12-04T21:58:05.754970879Z] 21:58:05.749 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@1c664c4f
+[2014-12-04T21:58:05.754970879Z] 21:58:05.754 INFO - Started HttpContext[/wd,/wd]
+[2014-12-04T21:58:05.760879345Z] 21:58:05.759 INFO - Started SocketListener on 0.0.0.0:5555
+[2014-12-04T21:58:05.760879345Z] 21:58:05.759 INFO - Started org.openqa.jetty.jetty.Server@d0adc0c
+[2014-12-04T21:58:05.825661409Z] 21:58:05.822 INFO - using the json request : {"class":"org.openqa.grid.common.RegistrationRequest","configuration":{"nodeConfig":"/opt/selenium/config.json","register":true,"port":5555,"host":"172.17.2.219","proxy":"org.openqa.grid.selenium.proxy.DefaultRemoteProxy","maxSession":1,"role":"node","hubHost":"172.17.2.205","registerCycle":5000,"hub":"http://172.17.2.205:4444/grid/register","hubPort":4444,"url":"http://172.17.2.219:5555","remoteHost":"http://172.17.2.219:5555"},"capabilities":[{"platform":"LINUX","seleniumProtocol":"Selenium","browserName":"*googlechrome","maxInstances":1},{"platform":"LINUX","seleniumProtocol":"WebDriver","browserName":"chrome","maxInstances":1}]}
+[2014-12-04T21:58:05.827188133Z] 21:58:05.827 INFO - Starting auto register thread. Will try to register every 5000 ms.
+[2014-12-04T21:58:05.827856625Z] 21:58:05.827 INFO - Registering the node to hub :http://172.17.2.205:4444/grid/register
+[2014-12-04T21:58:06.149392298Z] 21:58:06.140 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=chrome, version=}]])
+[2014-12-04T21:58:06.196453910Z] 21:58:06.196 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=chrome, version=}]
+[2014-12-04T21:58:06.635657803Z] Starting ChromeDriver 2.12.301324 (de8ab311bc9374d0ade71f7c167bad61848c7c48) on port 8021
+[2014-12-04T21:58:06.635657803Z] Only local connections are allowed.
+[2014-12-04T21:58:06.711713938Z] [0.110][WARNING]: PAC support disabled because there is no system implementation

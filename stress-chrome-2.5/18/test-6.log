@@ -1,0 +1,2 @@
+[90m[chrome] [39m > [36mCALL[39m init({"browserName":"chrome"}) [90m[39m
+[90m[chrome] [39m > [35mPOST[39m /session [90m{"desiredCapabilities":{"browserName":"chrome","version":"","javascriptEnabled":true,"platform":"ANY"}}[39m

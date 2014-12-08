@@ -1,0 +1,422 @@
+2014-12-04T21:46:54.393106530Z 21:46:54.391 INFO - Launching a selenium grid node
+[2014-12-04T21:46:54.948470720Z] 21:46:54.948 INFO - Java: Oracle Corporation 24.65-b04
+[2014-12-04T21:46:54.948521940Z] 21:46:54.948 INFO - OS: Linux 3.16.7-tinycore64 amd64
+[2014-12-04T21:46:54.954376915Z] 21:46:54.953 INFO - v2.44.0, with Core v2.44.0. Built from revision 76d78cf
+[2014-12-04T21:46:55.026292843Z] 21:46:55.026 INFO - Default driver org.openqa.selenium.ie.InternetExplorerDriver registration is skipped: registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match with current platform: LINUX
+[2014-12-04T21:46:55.050581840Z] 21:46:55.050 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:5555/wd/hub
+[2014-12-04T21:46:55.051617968Z] 21:46:55.051 INFO - Version Jetty/5.1.x
+[2014-12-04T21:46:55.054408617Z] 21:46:55.053 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+[2014-12-04T21:46:55.055170479Z] 21:46:55.055 INFO - Started HttpContext[/selenium-server,/selenium-server]
+[2014-12-04T21:46:55.055264789Z] 21:46:55.055 INFO - Started HttpContext[/,/]
+[2014-12-04T21:46:55.061368454Z] 21:46:55.061 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@6cb7c7ef
+[2014-12-04T21:46:55.061391960Z] 21:46:55.061 INFO - Started HttpContext[/wd,/wd]
+[2014-12-04T21:46:55.064986974Z] 21:46:55.064 INFO - Started SocketListener on 0.0.0.0:5555
+[2014-12-04T21:46:55.065073348Z] 21:46:55.064 INFO - Started org.openqa.jetty.jetty.Server@d0adc0c
+[2014-12-04T21:46:55.103072606Z] 21:46:55.100 INFO - using the json request : {"class":"org.openqa.grid.common.RegistrationRequest","configuration":{"nodeConfig":"/opt/selenium/config.json","register":true,"port":5555,"host":"172.17.1.246","proxy":"org.openqa.grid.selenium.proxy.DefaultRemoteProxy","maxSession":2,"role":"node","hubHost":"172.17.1.242","registerCycle":5000,"hub":"http://172.17.1.242:4444/grid/register","hubPort":4444,"url":"http://172.17.1.246:5555","remoteHost":"http://172.17.1.246:5555"},"capabilities":[{"platform":"LINUX","seleniumProtocol":"Selenium","browserName":"*firefox","maxInstances":2},{"platform":"LINUX","seleniumProtocol":"WebDriver","browserName":"firefox","maxInstances":2}]}
+[2014-12-04T21:46:55.103145352Z] 21:46:55.102 INFO - Starting auto register thread. Will try to register every 5000 ms.
+[2014-12-04T21:46:55.103145352Z] 21:46:55.102 INFO - Registering the node to hub :http://172.17.1.242:4444/grid/register
+[2014-12-04T21:47:07.850221634Z] 21:47:07.637 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:47:07.916396405Z] 21:47:07.656 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:47:08.310065246Z] 21:47:08.062 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:47:08.350719398Z] 21:47:08.064 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:47:10.272106064Z] 21:47:10.271 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:47:10.292730119Z] 21:47:10.292 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:47:12.756467106Z] 21:47:12.756 INFO - Done: [get: https://github.com]
+[2014-12-04T21:47:12.774165768Z] 21:47:12.772 INFO - Executing: [get title])
+[2014-12-04T21:47:12.788564214Z] 21:47:12.788 INFO - Done: [get title]
+[2014-12-04T21:47:12.804556978Z] 21:47:12.804 INFO - Executing: [delete session: e709747d-0ec9-4ec5-a0ab-2d11140b24e2])
+[2014-12-04T21:47:13.254612690Z] 21:47:12.880 INFO - Done: [delete session: e709747d-0ec9-4ec5-a0ab-2d11140b24e2]
+[2014-12-04T21:47:13.277877925Z] 21:47:12.905 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:47:13.277877925Z] 21:47:12.907 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:47:13.795326853Z] 21:47:13.590 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:47:13.840396868Z] 21:47:13.606 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:47:16.099124459Z] 21:47:16.098 INFO - Done: [get: https://github.com]
+[2014-12-04T21:47:16.119199388Z] 21:47:16.117 INFO - Executing: [get title])
+[2014-12-04T21:47:16.134195839Z] 21:47:16.133 INFO - Done: [get title]
+[2014-12-04T21:47:16.146973605Z] 21:47:16.146 INFO - Executing: [delete session: 07a11f5b-1d7d-48fc-803d-ebd4083dc338])
+[2014-12-04T21:47:16.227339437Z] 21:47:16.227 INFO - Done: [delete session: 07a11f5b-1d7d-48fc-803d-ebd4083dc338]
+[2014-12-04T21:47:16.247260889Z] 21:47:16.246 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:47:16.250038104Z] 21:47:16.249 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:47:16.262369867Z] 21:47:16.262 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:47:16.289647925Z] 21:47:16.289 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:47:18.125923073Z] 21:47:18.125 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:47:18.156903350Z] 21:47:18.146 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:47:19.684847459Z] 21:47:19.684 INFO - Done: [get: https://github.com]
+[2014-12-04T21:47:19.696447065Z] 21:47:19.696 INFO - Executing: [get title])
+[2014-12-04T21:47:19.709984629Z] 21:47:19.709 INFO - Done: [get title]
+[2014-12-04T21:47:19.733242426Z] 21:47:19.729 INFO - Executing: [delete session: 8fffea4f-9a0e-41f8-a685-120d8f49a917])
+[2014-12-04T21:47:19.811854767Z] 21:47:19.811 INFO - Done: [delete session: 8fffea4f-9a0e-41f8-a685-120d8f49a917]
+[2014-12-04T21:47:19.828557974Z] 21:47:19.825 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:47:19.829188020Z] 21:47:19.828 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:47:21.130796277Z] 21:47:20.867 INFO - Done: [get: https://github.com]
+[2014-12-04T21:47:21.144061474Z] 21:47:20.880 INFO - Executing: [get title])
+[2014-12-04T21:47:21.144061474Z] 21:47:20.899 INFO - Done: [get title]
+[2014-12-04T21:47:21.144061474Z] 21:47:20.910 INFO - Executing: [delete session: d0a843bc-3e13-415d-81ad-bcf82a5f6f3e])
+[2014-12-04T21:47:21.144061474Z] 21:47:20.984 INFO - Done: [delete session: d0a843bc-3e13-415d-81ad-bcf82a5f6f3e]
+[2014-12-04T21:47:21.144061474Z] 21:47:21.005 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:47:21.144061474Z] 21:47:21.007 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:47:21.936998063Z] 21:47:21.936 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:47:21.952238842Z] 21:47:21.952 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:47:24.209377777Z] 21:47:24.209 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:47:24.226805363Z] 21:47:24.226 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:47:24.336322764Z] 21:47:24.336 INFO - Done: [get: https://github.com]
+[2014-12-04T21:47:24.356335335Z] 21:47:24.355 INFO - Executing: [get title])
+[2014-12-04T21:47:24.381268110Z] 21:47:24.381 INFO - Done: [get title]
+[2014-12-04T21:47:24.395267379Z] 21:47:24.394 INFO - Executing: [delete session: aabb9b61-ad61-4f77-9fb6-04c27d68c946])
+[2014-12-04T21:47:24.481410375Z] 21:47:24.480 INFO - Done: [delete session: aabb9b61-ad61-4f77-9fb6-04c27d68c946]
+[2014-12-04T21:47:24.496504752Z] 21:47:24.495 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:47:24.500093559Z] 21:47:24.499 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:47:26.816976583Z] 21:47:26.461 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:47:26.841111962Z] 21:47:26.498 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:47:26.841111962Z] 21:47:26.774 INFO - Done: [get: https://github.com]
+[2014-12-04T21:47:26.841111962Z] 21:47:26.782 INFO - Executing: [get title])
+[2014-12-04T21:47:26.841111962Z] 21:47:26.788 INFO - Done: [get title]
+[2014-12-04T21:47:26.841111962Z] 21:47:26.797 INFO - Executing: [delete session: 5fdf6ddb-cdbb-4aa5-86c1-95c1855c0e51])
+[2014-12-04T21:47:26.877462713Z] 21:47:26.876 INFO - Done: [delete session: 5fdf6ddb-cdbb-4aa5-86c1-95c1855c0e51]
+[2014-12-04T21:47:26.894669477Z] 21:47:26.894 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:47:26.900271597Z] 21:47:26.899 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:47:28.706074524Z] 21:47:28.705 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:47:28.725520505Z] 21:47:28.725 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:47:30.032452137Z] 21:47:30.032 INFO - Done: [get: https://github.com]
+[2014-12-04T21:47:30.045134456Z] 21:47:30.044 INFO - Executing: [get title])
+[2014-12-04T21:47:30.059724222Z] 21:47:30.059 INFO - Done: [get title]
+[2014-12-04T21:47:30.073959579Z] 21:47:30.073 INFO - Executing: [delete session: 200d0355-c2d1-48bd-91b7-7d98741f0288])
+[2014-12-04T21:47:30.157866161Z] 21:47:30.155 INFO - Done: [delete session: 200d0355-c2d1-48bd-91b7-7d98741f0288]
+[2014-12-04T21:47:30.176183672Z] 21:47:30.174 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:47:30.176285855Z] 21:47:30.175 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:47:31.400456355Z] 21:47:31.400 INFO - Done: [get: https://github.com]
+[2014-12-04T21:47:31.414537528Z] 21:47:31.414 INFO - Executing: [get title])
+[2014-12-04T21:47:31.421168407Z] 21:47:31.420 INFO - Done: [get title]
+[2014-12-04T21:47:31.435079502Z] 21:47:31.434 INFO - Executing: [delete session: 39f51ead-0db5-4395-8713-25a0718a158b])
+[2014-12-04T21:47:31.527901325Z] 21:47:31.526 INFO - Done: [delete session: 39f51ead-0db5-4395-8713-25a0718a158b]
+[2014-12-04T21:47:31.543091552Z] 21:47:31.542 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:47:31.547169948Z] 21:47:31.546 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:47:32.905944656Z] 21:47:32.495 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:47:32.927693385Z] 21:47:32.520 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:47:34.666928947Z] 21:47:34.666 INFO - Done: [get: https://github.com]
+[2014-12-04T21:47:34.689804962Z] 21:47:34.686 INFO - Executing: [get title])
+[2014-12-04T21:47:34.822343591Z] 21:47:34.821 INFO - Done: [get title]
+[2014-12-04T21:47:34.876898313Z] 21:47:34.876 INFO - Executing: [delete session: b4f5755a-cc6e-42c1-8889-158a44006aaf])
+[2014-12-04T21:47:35.040825088Z] 21:47:35.040 INFO - Done: [delete session: b4f5755a-cc6e-42c1-8889-158a44006aaf]
+[2014-12-04T21:47:35.065315164Z] 21:47:35.063 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:47:35.076095321Z] 21:47:35.073 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:47:36.163820708Z] 21:47:36.162 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:47:36.188207478Z] 21:47:36.185 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:47:38.905857681Z] 21:47:38.866 INFO - Done: [get: https://github.com]
+[2014-12-04T21:47:38.943704230Z] 21:47:38.888 INFO - Executing: [get title])
+[2014-12-04T21:47:38.943704230Z] 21:47:38.911 INFO - Done: [get title]
+[2014-12-04T21:47:38.943704230Z] 21:47:38.927 INFO - Executing: [delete session: 9ed68361-ad20-4a93-a401-7b5382a1cd60])
+[2014-12-04T21:47:39.029701032Z] 21:47:39.029 INFO - Done: [delete session: 9ed68361-ad20-4a93-a401-7b5382a1cd60]
+[2014-12-04T21:47:39.056792451Z] 21:47:39.056 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:47:39.064928607Z] 21:47:39.062 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:47:40.496081391Z] 21:47:40.495 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:47:40.591854758Z] 21:47:40.589 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:47:43.674611481Z] 21:47:43.674 INFO - Done: [get: https://github.com]
+[2014-12-04T21:47:43.689646732Z] 21:47:43.689 INFO - Executing: [get title])
+[2014-12-04T21:47:43.724475286Z] 21:47:43.723 INFO - Done: [get title]
+[2014-12-04T21:47:43.747391517Z] 21:47:43.746 INFO - Executing: [delete session: 2dd9d5f4-ab25-4b67-adfa-de87a1e39a73])
+[2014-12-04T21:47:43.848759314Z] 21:47:43.844 INFO - Done: [delete session: 2dd9d5f4-ab25-4b67-adfa-de87a1e39a73]
+[2014-12-04T21:47:43.872099634Z] 21:47:43.870 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:47:43.881111277Z] 21:47:43.879 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:47:45.873041358Z] 21:47:45.872 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:47:45.931355142Z] 21:47:45.931 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:47:49.704898962Z] 21:47:49.374 INFO - Done: [get: https://github.com]
+[2014-12-04T21:47:49.726191551Z] 21:47:49.394 INFO - Executing: [get title])
+[2014-12-04T21:47:49.726191551Z] 21:47:49.406 INFO - Done: [get title]
+[2014-12-04T21:47:49.726191551Z] 21:47:49.419 INFO - Executing: [delete session: edd3fa16-46ef-4c67-a981-cc81b1c60b22])
+[2014-12-04T21:47:49.726191551Z] 21:47:49.558 INFO - Done: [delete session: edd3fa16-46ef-4c67-a981-cc81b1c60b22]
+[2014-12-04T21:47:49.726191551Z] 21:47:49.574 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:47:49.726191551Z] 21:47:49.576 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:47:50.986735813Z] 21:47:50.986 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:47:51.046552787Z] 21:47:51.046 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:47:54.492457331Z] 21:47:54.400 INFO - Done: [get: https://github.com]
+[2014-12-04T21:47:54.535694274Z] 21:47:54.416 INFO - Executing: [get title])
+[2014-12-04T21:47:54.535694274Z] 21:47:54.459 INFO - Done: [get title]
+[2014-12-04T21:47:54.535694274Z] 21:47:54.472 INFO - Executing: [delete session: df11d311-fb8d-43f7-aaf6-f5008ee148de])
+[2014-12-04T21:47:54.621391184Z] 21:47:54.607 INFO - Done: [delete session: df11d311-fb8d-43f7-aaf6-f5008ee148de]
+[2014-12-04T21:47:54.621391184Z] 21:47:54.618 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:47:54.631920698Z] 21:47:54.631 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:47:56.121577032Z] 21:47:56.120 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:47:56.150650340Z] 21:47:56.150 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:47:59.783445083Z] 21:47:59.780 INFO - Done: [get: https://github.com]
+[2014-12-04T21:47:59.814325521Z] 21:47:59.803 INFO - Executing: [get title])
+[2014-12-04T21:47:59.918149337Z] 21:47:59.902 INFO - Done: [get title]
+[2014-12-04T21:47:59.923776978Z] 21:47:59.922 INFO - Executing: [delete session: 68720f50-fa0e-487c-be71-308bef446201])
+[2014-12-04T21:48:00.239441595Z] 21:48:00.237 INFO - Done: [delete session: 68720f50-fa0e-487c-be71-308bef446201]
+[2014-12-04T21:48:00.267022118Z] 21:48:00.265 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:48:00.269529695Z] 21:48:00.269 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:48:01.290868561Z] 21:48:01.290 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:48:01.319415950Z] 21:48:01.318 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:48:05.395084123Z] 21:48:05.369 INFO - Done: [get: https://github.com]
+[2014-12-04T21:48:05.418971665Z] 21:48:05.418 INFO - Executing: [get title])
+[2014-12-04T21:48:05.509828925Z] 21:48:05.507 INFO - Done: [get title]
+[2014-12-04T21:48:05.528436160Z] 21:48:05.527 INFO - Executing: [delete session: 6cea94f2-124d-4a1a-a355-706337f08148])
+[2014-12-04T21:48:05.711226159Z] 21:48:05.709 INFO - Done: [delete session: 6cea94f2-124d-4a1a-a355-706337f08148]
+[2014-12-04T21:48:06.520484959Z] 21:48:05.725 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:48:06.520484959Z] 21:48:05.727 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:48:06.651073630Z] 21:48:06.649 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:48:06.676891055Z] 21:48:06.676 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:48:11.128529361Z] 21:48:11.128 INFO - Done: [get: https://github.com]
+[2014-12-04T21:48:11.506268285Z] 21:48:11.139 INFO - Executing: [get title])
+[2014-12-04T21:48:11.535933640Z] 21:48:11.234 INFO - Done: [get title]
+[2014-12-04T21:48:11.535933640Z] 21:48:11.247 INFO - Executing: [delete session: ab3df9b8-caca-4706-ad60-c6f56040f2fe])
+[2014-12-04T21:48:11.535933640Z] 21:48:11.375 INFO - Done: [delete session: ab3df9b8-caca-4706-ad60-c6f56040f2fe]
+[2014-12-04T21:48:11.535933640Z] 21:48:11.384 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:48:11.535933640Z] 21:48:11.385 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:48:12.550254919Z] 21:48:12.548 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:48:12.618533884Z] 21:48:12.618 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:48:16.007052442Z] 21:48:16.005 INFO - Done: [get: https://github.com]
+[2014-12-04T21:48:16.026527817Z] 21:48:16.025 INFO - Executing: [get title])
+[2014-12-04T21:48:16.561896913Z] 21:48:16.199 INFO - Done: [get title]
+[2014-12-04T21:48:16.561928923Z] 21:48:16.211 INFO - Executing: [delete session: 897958c6-9054-4d0d-a8d0-58f322385dc8])
+[2014-12-04T21:48:16.561928923Z] 21:48:16.309 INFO - Done: [delete session: 897958c6-9054-4d0d-a8d0-58f322385dc8]
+[2014-12-04T21:48:16.561928923Z] 21:48:16.317 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:48:16.561928923Z] 21:48:16.318 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:48:18.222804750Z] 21:48:18.222 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:48:18.291696702Z] 21:48:18.290 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:48:22.705777281Z] 21:48:22.032 INFO - Done: [get: https://github.com]
+[2014-12-04T21:48:22.705824998Z] 21:48:22.049 INFO - Executing: [get title])
+[2014-12-04T21:48:22.705824998Z] 21:48:22.070 INFO - Done: [get title]
+[2014-12-04T21:48:22.705824998Z] 21:48:22.081 INFO - Executing: [delete session: d75d3a06-d2ff-4216-b7fe-a3067c615415])
+[2014-12-04T21:48:22.705824998Z] 21:48:22.164 INFO - Done: [delete session: d75d3a06-d2ff-4216-b7fe-a3067c615415]
+[2014-12-04T21:48:22.705824998Z] 21:48:22.172 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:48:22.705824998Z] 21:48:22.174 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:48:23.322106969Z] 21:48:23.319 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:48:23.357190433Z] 21:48:23.356 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:48:28.196514872Z] 21:48:27.341 INFO - Done: [get: https://github.com]
+[2014-12-04T21:48:28.241249633Z] 21:48:27.358 INFO - Executing: [get title])
+[2014-12-04T21:48:28.241249633Z] 21:48:27.409 INFO - Done: [get title]
+[2014-12-04T21:48:28.241249633Z] 21:48:27.422 INFO - Executing: [delete session: 9dce0f03-ba9d-4d24-8b07-4d0284727cdc])
+[2014-12-04T21:48:28.241249633Z] 21:48:27.500 INFO - Done: [delete session: 9dce0f03-ba9d-4d24-8b07-4d0284727cdc]
+[2014-12-04T21:48:28.241249633Z] 21:48:27.514 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:48:28.241249633Z] 21:48:27.516 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:48:28.241249633Z] 21:48:28.213 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:48:28.241249633Z] 21:48:28.240 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:48:32.003515081Z] 21:48:32.000 INFO - Done: [get: https://github.com]
+[2014-12-04T21:48:32.044948945Z] 21:48:32.035 INFO - Executing: [get title])
+[2014-12-04T21:48:32.080541183Z] 21:48:32.079 INFO - Done: [get title]
+[2014-12-04T21:48:32.103072934Z] 21:48:32.102 INFO - Executing: [delete session: bd196021-53eb-4ccf-9922-878225e1b887])
+[2014-12-04T21:48:32.286146048Z] 21:48:32.218 INFO - Done: [delete session: bd196021-53eb-4ccf-9922-878225e1b887]
+[2014-12-04T21:48:32.286321123Z] 21:48:32.245 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:48:32.286321123Z] 21:48:32.247 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:48:34.281309615Z] 21:48:34.278 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:48:34.349682263Z] 21:48:34.347 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:48:38.322105783Z] 21:48:38.321 INFO - Done: [get: https://github.com]
+[2014-12-04T21:48:38.344049351Z] 21:48:38.339 INFO - Executing: [get title])
+[2014-12-04T21:48:38.397412923Z] 21:48:38.396 INFO - Done: [get title]
+[2014-12-04T21:48:38.440870706Z] 21:48:38.416 INFO - Executing: [delete session: 7add9cc0-bc86-4b24-9f5c-8933f028d5ef])
+[2014-12-04T21:48:38.568169614Z] 21:48:38.567 INFO - Done: [delete session: 7add9cc0-bc86-4b24-9f5c-8933f028d5ef]
+[2014-12-04T21:48:38.590820795Z] 21:48:38.590 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:48:38.594305369Z] 21:48:38.591 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:48:39.059033479Z] 21:48:39.057 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:48:39.093723162Z] 21:48:39.093 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:48:43.040035995Z] 21:48:43.025 INFO - Done: [get: https://github.com]
+[2014-12-04T21:48:43.068643316Z] 21:48:43.045 INFO - Executing: [get title])
+[2014-12-04T21:48:43.102849604Z] 21:48:43.102 INFO - Done: [get title]
+[2014-12-04T21:48:43.122759191Z] 21:48:43.122 INFO - Executing: [delete session: 18c93b2e-12d6-495a-b402-89a75b49360c])
+[2014-12-04T21:48:43.250884911Z] 21:48:43.250 INFO - Done: [delete session: 18c93b2e-12d6-495a-b402-89a75b49360c]
+[2014-12-04T21:48:43.272587227Z] 21:48:43.269 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:48:43.294872636Z] 21:48:43.291 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:48:44.786633100Z] 21:48:44.630 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:48:44.838175640Z] 21:48:44.649 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:48:48.365832177Z] 21:48:48.361 INFO - Done: [get: https://github.com]
+[2014-12-04T21:48:48.378291013Z] 21:48:48.375 INFO - Executing: [get title])
+[2014-12-04T21:48:48.469172819Z] 21:48:48.468 INFO - Done: [get title]
+[2014-12-04T21:48:48.490325926Z] 21:48:48.485 INFO - Executing: [delete session: 17a01051-6c6d-460c-b763-0c8754fd0ea2])
+[2014-12-04T21:48:48.671080081Z] 21:48:48.669 INFO - Done: [delete session: 17a01051-6c6d-460c-b763-0c8754fd0ea2]
+[2014-12-04T21:48:48.690403577Z] 21:48:48.687 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:48:48.690462564Z] 21:48:48.688 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:48:49.858998535Z] 21:48:49.800 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:48:49.908815793Z] 21:48:49.826 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:48:53.682901028Z] 21:48:53.682 INFO - Done: [get: https://github.com]
+[2014-12-04T21:48:53.708693154Z] 21:48:53.708 INFO - Executing: [get title])
+[2014-12-04T21:48:53.792605158Z] 21:48:53.790 INFO - Done: [get title]
+[2014-12-04T21:48:53.819719465Z] 21:48:53.819 INFO - Executing: [delete session: a02b01a4-9514-4048-9df4-cf92c1630582])
+[2014-12-04T21:48:54.018085421Z] 21:48:54.017 INFO - Done: [delete session: a02b01a4-9514-4048-9df4-cf92c1630582]
+[2014-12-04T21:48:54.040327864Z] 21:48:54.038 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:48:54.049351129Z] 21:48:54.049 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:48:54.785253136Z] 21:48:54.756 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:48:54.823243225Z] 21:48:54.778 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:48:57.892898759Z] 21:48:57.892 INFO - Done: [get: https://github.com]
+[2014-12-04T21:48:57.910760134Z] 21:48:57.909 INFO - Executing: [get title])
+[2014-12-04T21:48:58.118828313Z] 21:48:58.118 INFO - Done: [get title]
+[2014-12-04T21:48:58.139759320Z] 21:48:58.139 INFO - Executing: [delete session: c3ba865d-6927-45b3-bccc-c71b7886f01e])
+[2014-12-04T21:48:58.311611380Z] 21:48:58.310 INFO - Done: [delete session: c3ba865d-6927-45b3-bccc-c71b7886f01e]
+[2014-12-04T21:48:58.345561127Z] 21:48:58.342 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:48:58.345636755Z] 21:48:58.345 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:49:00.701397290Z] 21:49:00.182 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:49:00.716887517Z] 21:49:00.205 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:49:03.160005977Z] 21:49:03.157 INFO - Done: [get: https://github.com]
+[2014-12-04T21:49:03.178535105Z] 21:49:03.178 INFO - Executing: [get title])
+[2014-12-04T21:49:03.345753923Z] 21:49:03.344 INFO - Done: [get title]
+[2014-12-04T21:49:03.389202972Z] 21:49:03.385 INFO - Executing: [delete session: 78a80a72-a0bd-4ec6-bd97-c199ddc9d46f])
+[2014-12-04T21:49:03.792030449Z] 21:49:03.785 INFO - Done: [delete session: 78a80a72-a0bd-4ec6-bd97-c199ddc9d46f]
+[2014-12-04T21:49:03.858672403Z] 21:49:03.842 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:49:03.858672403Z] 21:49:03.853 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:49:06.474744040Z] 21:49:06.193 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:49:06.474787936Z] 21:49:06.209 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:49:09.438248923Z] 21:49:09.436 INFO - Done: [get: https://github.com]
+[2014-12-04T21:49:09.464757985Z] 21:49:09.464 INFO - Executing: [get title])
+[2014-12-04T21:49:09.538433176Z] 21:49:09.538 INFO - Done: [get title]
+[2014-12-04T21:49:09.579195151Z] 21:49:09.578 INFO - Executing: [delete session: 9444eb22-d39f-4555-91b0-9d07e3abdcce])
+[2014-12-04T21:49:09.769566193Z] 21:49:09.768 INFO - Done: [delete session: 9444eb22-d39f-4555-91b0-9d07e3abdcce]
+[2014-12-04T21:49:09.786456676Z] 21:49:09.784 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:49:09.787362748Z] 21:49:09.787 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:49:11.900127756Z] 21:49:11.769 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:49:12.068952223Z] 21:49:11.790 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:49:15.381053364Z] 21:49:15.380 INFO - Done: [get: https://github.com]
+[2014-12-04T21:49:15.397774853Z] 21:49:15.397 INFO - Executing: [get title])
+[2014-12-04T21:49:15.435313692Z] 21:49:15.434 INFO - Done: [get title]
+[2014-12-04T21:49:15.458846385Z] 21:49:15.457 INFO - Executing: [delete session: 83cef4d7-e8a1-445d-8965-7007cc51931c])
+[2014-12-04T21:49:15.552531181Z] 21:49:15.551 INFO - Done: [delete session: 83cef4d7-e8a1-445d-8965-7007cc51931c]
+[2014-12-04T21:49:15.582294019Z] 21:49:15.580 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:49:15.582366000Z] 21:49:15.581 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:49:17.191889471Z] 21:49:17.177 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:49:17.198652437Z] 21:49:17.196 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:49:20.794960104Z] 21:49:20.794 INFO - Done: [get: https://github.com]
+[2014-12-04T21:49:20.826631123Z] 21:49:20.819 INFO - Executing: [get title])
+[2014-12-04T21:49:20.897615148Z] 21:49:20.896 INFO - Done: [get title]
+[2014-12-04T21:49:20.926366214Z] 21:49:20.921 INFO - Executing: [delete session: 0361098d-7dec-458f-b21d-ab955ef80cc7])
+[2014-12-04T21:49:21.112273563Z] 21:49:21.111 INFO - Done: [delete session: 0361098d-7dec-458f-b21d-ab955ef80cc7]
+[2014-12-04T21:49:21.136530388Z] 21:49:21.136 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:49:21.140148497Z] 21:49:21.139 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:49:22.716764128Z] 21:49:22.716 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:49:22.771044802Z] 21:49:22.748 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:49:27.110994630Z] 21:49:27.110 INFO - Done: [get: https://github.com]
+[2014-12-04T21:49:27.145553193Z] 21:49:27.144 INFO - Executing: [get title])
+[2014-12-04T21:49:27.299471330Z] 21:49:27.277 INFO - Done: [get title]
+[2014-12-04T21:49:27.304636769Z] 21:49:27.301 INFO - Executing: [delete session: f044ebfa-3007-4a8e-b7c1-2cdeab5f025b])
+[2014-12-04T21:49:27.688597432Z] 21:49:27.418 INFO - Done: [delete session: f044ebfa-3007-4a8e-b7c1-2cdeab5f025b]
+[2014-12-04T21:49:27.688667999Z] 21:49:27.434 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:49:27.688667999Z] 21:49:27.436 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:49:28.496973890Z] 21:49:28.255 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:49:28.556829616Z] 21:49:28.293 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:49:32.359677360Z] 21:49:32.358 INFO - Done: [get: https://github.com]
+[2014-12-04T21:49:32.374084127Z] 21:49:32.372 INFO - Executing: [get title])
+[2014-12-04T21:49:32.559760414Z] 21:49:32.557 INFO - Done: [get title]
+[2014-12-04T21:49:32.575495649Z] 21:49:32.574 INFO - Executing: [delete session: b6dc775b-7001-4709-a948-b3f81547b151])
+[2014-12-04T21:49:32.701656577Z] 21:49:32.700 INFO - Done: [delete session: b6dc775b-7001-4709-a948-b3f81547b151]
+[2014-12-04T21:49:32.712873206Z] 21:49:32.711 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:49:32.725869255Z] 21:49:32.725 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:49:34.319959572Z] 21:49:34.107 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:49:34.361655524Z] 21:49:34.132 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:49:37.694722534Z] 21:49:37.694 INFO - Done: [get: https://github.com]
+[2014-12-04T21:49:37.727842140Z] 21:49:37.727 INFO - Executing: [get title])
+[2014-12-04T21:49:37.872212092Z] 21:49:37.871 INFO - Done: [get title]
+[2014-12-04T21:49:37.911379531Z] 21:49:37.909 INFO - Executing: [delete session: 37acef19-666a-4a29-bd8d-ab5e75163c21])
+[2014-12-04T21:49:38.116885607Z] 21:49:38.109 INFO - Done: [delete session: 37acef19-666a-4a29-bd8d-ab5e75163c21]
+[2014-12-04T21:49:38.137110181Z] 21:49:38.136 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:49:38.156094927Z] 21:49:38.155 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:49:39.935951391Z] 21:49:39.934 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:49:39.970039619Z] 21:49:39.968 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:49:44.154027658Z] 21:49:44.152 INFO - Done: [get: https://github.com]
+[2014-12-04T21:49:44.178686024Z] 21:49:44.172 INFO - Executing: [get title])
+[2014-12-04T21:49:44.260809946Z] 21:49:44.260 INFO - Done: [get title]
+[2014-12-04T21:49:44.292697239Z] 21:49:44.290 INFO - Executing: [delete session: 109a9b58-f0cd-4878-a814-eeb1cda6c4d7])
+[2014-12-04T21:49:44.797110914Z] 21:49:44.425 INFO - Done: [delete session: 109a9b58-f0cd-4878-a814-eeb1cda6c4d7]
+[2014-12-04T21:49:44.839797680Z] 21:49:44.433 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:49:44.839797680Z] 21:49:44.439 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:49:45.317668336Z] 21:49:45.317 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:49:45.361390885Z] 21:49:45.361 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:49:49.506838622Z] 21:49:49.506 INFO - Done: [get: https://github.com]
+[2014-12-04T21:49:49.524052931Z] 21:49:49.523 INFO - Executing: [get title])
+[2014-12-04T21:49:49.635975814Z] 21:49:49.635 INFO - Done: [get title]
+[2014-12-04T21:49:49.655128841Z] 21:49:49.654 INFO - Executing: [delete session: ef4ff49f-5a6c-4cec-8d89-d69edb7fbff2])
+[2014-12-04T21:49:50.166737996Z] 21:49:49.844 INFO - Done: [delete session: ef4ff49f-5a6c-4cec-8d89-d69edb7fbff2]
+[2014-12-04T21:49:50.198888175Z] 21:49:49.874 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:49:50.198888175Z] 21:49:49.876 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:49:51.691625086Z] 21:49:51.682 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:49:51.748518503Z] 21:49:51.711 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:49:55.872806724Z] 21:49:55.868 INFO - Done: [get: https://github.com]
+[2014-12-04T21:49:55.902196592Z] 21:49:55.902 INFO - Executing: [get title])
+[2014-12-04T21:49:56.087076024Z] 21:49:56.086 INFO - Done: [get title]
+[2014-12-04T21:49:56.104334456Z] 21:49:56.104 INFO - Executing: [delete session: 7dc4750d-dbca-46f0-9beb-6ad1e72dba62])
+[2014-12-04T21:49:56.292499600Z] 21:49:56.249 INFO - Done: [delete session: 7dc4750d-dbca-46f0-9beb-6ad1e72dba62]
+[2014-12-04T21:49:56.305908358Z] 21:49:56.294 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:49:56.305908358Z] 21:49:56.305 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:49:59.024833018Z] 21:49:59.024 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:49:59.061787970Z] 21:49:59.060 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:50:02.470073906Z] 21:50:02.469 INFO - Done: [get: https://github.com]
+[2014-12-04T21:50:02.504415674Z] 21:50:02.494 INFO - Executing: [get title])
+[2014-12-04T21:50:02.515159789Z] 21:50:02.508 INFO - Done: [get title]
+[2014-12-04T21:50:02.524460964Z] 21:50:02.524 INFO - Executing: [delete session: 7b02e678-aa55-4b91-a3d9-7c81f7322635])
+[2014-12-04T21:50:03.077227426Z] 21:50:02.704 INFO - Done: [delete session: 7b02e678-aa55-4b91-a3d9-7c81f7322635]
+[2014-12-04T21:50:03.111032915Z] 21:50:02.715 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:50:03.111032915Z] 21:50:02.716 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:50:05.128194126Z] 21:50:05.126 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:50:05.161547402Z] 21:50:05.161 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:50:09.003997455Z] 21:50:09.003 INFO - Done: [get: https://github.com]
+[2014-12-04T21:50:09.040157090Z] 21:50:09.021 INFO - Executing: [get title])
+[2014-12-04T21:50:09.423012304Z] 21:50:09.115 INFO - Done: [get title]
+[2014-12-04T21:50:09.444171934Z] 21:50:09.128 INFO - Executing: [delete session: 6e1d0d6c-e1d6-4df4-952d-ab3b09763786])
+[2014-12-04T21:50:09.444171934Z] 21:50:09.209 INFO - Done: [delete session: 6e1d0d6c-e1d6-4df4-952d-ab3b09763786]
+[2014-12-04T21:50:09.444171934Z] 21:50:09.222 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:50:09.444171934Z] 21:50:09.223 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:50:11.100190205Z] 21:50:11.099 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:50:11.162739250Z] 21:50:11.162 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:50:14.665304088Z] 21:50:14.665 INFO - Done: [get: https://github.com]
+[2014-12-04T21:50:14.686993333Z] 21:50:14.685 INFO - Executing: [get title])
+[2014-12-04T21:50:15.035718919Z] 21:50:14.787 INFO - Done: [get title]
+[2014-12-04T21:50:15.076991138Z] 21:50:14.805 INFO - Executing: [delete session: bfe2d84f-a1ca-4053-a50b-863d06f5e47d])
+[2014-12-04T21:50:15.076991138Z] 21:50:14.903 INFO - Done: [delete session: bfe2d84f-a1ca-4053-a50b-863d06f5e47d]
+[2014-12-04T21:50:15.076991138Z] 21:50:14.915 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:50:15.076991138Z] 21:50:14.918 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:50:16.325231554Z] 21:50:15.873 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:50:16.355395327Z] 21:50:15.899 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:50:20.078917614Z] 21:50:20.078 INFO - Done: [get: https://github.com]
+[2014-12-04T21:50:20.100419106Z] 21:50:20.097 INFO - Executing: [get title])
+[2014-12-04T21:50:20.243057905Z] 21:50:20.242 INFO - Done: [get title]
+[2014-12-04T21:50:20.292941159Z] 21:50:20.279 INFO - Executing: [delete session: 6d7c7572-456d-42e5-b5cd-a002cc509247])
+[2014-12-04T21:50:20.710034085Z] 21:50:20.489 INFO - Done: [delete session: 6d7c7572-456d-42e5-b5cd-a002cc509247]
+[2014-12-04T21:50:20.760867580Z] 21:50:20.504 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:50:20.760867580Z] 21:50:20.509 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:50:22.226967617Z] 21:50:22.225 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:50:22.279206561Z] 21:50:22.276 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:50:25.472814034Z] 21:50:25.422 INFO - Done: [get: https://github.com]
+[2014-12-04T21:50:25.505404241Z] 21:50:25.489 INFO - Executing: [get title])
+[2014-12-04T21:50:25.774814966Z] 21:50:25.774 INFO - Done: [get title]
+[2014-12-04T21:50:25.809383430Z] 21:50:25.808 INFO - Executing: [delete session: 6b49b6c0-cd7b-4a95-aac4-9605b34553eb])
+[2014-12-04T21:50:26.092623067Z] 21:50:26.091 INFO - Done: [delete session: 6b49b6c0-cd7b-4a95-aac4-9605b34553eb]
+[2014-12-04T21:50:26.118033109Z] 21:50:26.117 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:50:26.118715388Z] 21:50:26.118 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:50:27.552261977Z] 21:50:27.548 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:50:27.579604089Z] 21:50:27.572 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:50:30.618910576Z] 21:50:30.468 INFO - Done: [get: https://github.com]
+[2014-12-04T21:50:30.651359577Z] 21:50:30.487 INFO - Executing: [get title])
+[2014-12-04T21:50:30.651359577Z] 21:50:30.612 INFO - Done: [get title]
+[2014-12-04T21:50:30.651359577Z] 21:50:30.623 INFO - Executing: [delete session: 3a909d00-b167-4ecf-add8-9c18f1ac3a9c])
+[2014-12-04T21:50:30.801594954Z] 21:50:30.801 INFO - Done: [delete session: 3a909d00-b167-4ecf-add8-9c18f1ac3a9c]
+[2014-12-04T21:50:30.827191378Z] 21:50:30.827 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:50:30.844826700Z] 21:50:30.844 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:50:32.625890766Z] 21:50:32.621 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:50:32.677062284Z] 21:50:32.676 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:50:35.175518644Z] 21:50:35.175 INFO - Done: [get: https://github.com]
+[2014-12-04T21:50:35.191628846Z] 21:50:35.191 INFO - Executing: [get title])
+[2014-12-04T21:50:35.213549255Z] 21:50:35.212 INFO - Done: [get title]
+[2014-12-04T21:50:35.239958816Z] 21:50:35.238 INFO - Executing: [delete session: 38d29591-d4a4-481c-9c12-f17841ebe307])
+[2014-12-04T21:50:35.348529451Z] 21:50:35.348 INFO - Done: [delete session: 38d29591-d4a4-481c-9c12-f17841ebe307]
+[2014-12-04T21:50:35.368541601Z] 21:50:35.368 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:50:35.376667086Z] 21:50:35.372 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:50:39.006904404Z] 21:50:38.893 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:50:39.037734873Z] 21:50:38.934 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:50:41.861199531Z] 21:50:41.860 INFO - Done: [get: https://github.com]
+[2014-12-04T21:50:41.902788367Z] 21:50:41.902 INFO - Executing: [get title])
+[2014-12-04T21:50:42.011781456Z] 21:50:42.011 INFO - Done: [get title]
+[2014-12-04T21:50:42.028397138Z] 21:50:42.026 INFO - Executing: [delete session: b463f2d4-d52a-4325-8f24-52832aadc4d6])
+[2014-12-04T21:50:42.185361100Z] 21:50:42.185 INFO - Done: [delete session: b463f2d4-d52a-4325-8f24-52832aadc4d6]
+[2014-12-04T21:50:42.202413666Z] 21:50:42.202 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]])
+[2014-12-04T21:50:42.205577471Z] 21:50:42.205 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]
+[2014-12-04T21:50:43.179531077Z] 21:50:43.178 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:50:43.218364001Z] 21:50:43.218 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:50:47.089200717Z] 21:50:47.088 INFO - Done: [get: https://github.com]
+[2014-12-04T21:50:47.110387424Z] 21:50:47.110 INFO - Executing: [get title])
+[2014-12-04T21:50:47.157365420Z] 21:50:47.157 INFO - Done: [get title]
+[2014-12-04T21:50:47.176914506Z] 21:50:47.176 INFO - Executing: [delete session: fd8a3bc5-4c82-48bf-8d37-6df8017b1e1d])
+[2014-12-04T21:50:47.255803721Z] 21:50:47.254 INFO - Done: [delete session: fd8a3bc5-4c82-48bf-8d37-6df8017b1e1d]
+[2014-12-04T21:50:48.261054429Z] 21:50:48.260 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, browserName=firefox, version=}]]
+[2014-12-04T21:50:48.288486062Z] 21:50:48.288 INFO - Executing: [get: https://github.com])
+[2014-12-04T21:50:51.428964116Z] 21:50:51.428 INFO - Done: [get: https://github.com]
+[2014-12-04T21:50:51.447215588Z] 21:50:51.446 INFO - Executing: [get title])
+[2014-12-04T21:50:51.537479858Z] 21:50:51.537 INFO - Done: [get title]
+[2014-12-04T21:50:51.550438832Z] 21:50:51.549 INFO - Executing: [delete session: 08b095a3-3ee9-4315-9dcf-cd9d8f15b95d])
+[2014-12-04T21:50:51.639628546Z] 21:50:51.639 INFO - Done: [delete session: 08b095a3-3ee9-4315-9dcf-cd9d8f15b95d]
